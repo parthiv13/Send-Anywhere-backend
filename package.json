@@ -1,0 +1,41 @@
+{
+  "name": "send-anywhere",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parthiv13/Send-Anywhere-backend.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs"
+  ],
+  "author": "Parthiv Kativarapu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parthiv13/Send-Anywhere-backend/issues"
+  },
+  "homepage": "https://github.com/parthiv13/Send-Anywhere-backend#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-device": "^0.4.2",
+    "express-session": "^1.16.1",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "session": "^0.1.0",
+    "session-file-store": "^1.2.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  }
+}
